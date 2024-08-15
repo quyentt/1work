@@ -2100,6 +2100,7 @@ body {
   margin-top: 20px;
   overflow: hidden;
   max-width: 210px;
+  flex-shrink: 0;
 }
 
 .app-list-image img {
@@ -2139,4 +2140,8 @@ body {
   background-repeat: no-repeat;
   background-position: right 15px top 18px;
   width: 100%;
+}
+
+.app-list-item:last-child .app-list-item-title {
+  margin-top: 20px;
 }
