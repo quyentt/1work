@@ -2017,8 +2017,8 @@ body {
   background: #fff;
   font-size: 24px;
   font-weight: 800;
-  padding: 30px 50px;
-  border-radius: 30px;
+  padding: 15px 50px;
+  border-radius: 35px;
   margin-top: 30px;
   display: inline-block;
   margin-left: auto;
@@ -2144,4 +2144,160 @@ body {
 
 .app-list-item:last-child .app-list-item-title {
   margin-top: 20px;
+}
+
+.banner-job-manage {
+  height: 515px;
+  background-size: cover;
+  background-position: right -200px;
+}
+
+.banner-job-manage .banner-1work-btn {
+  margin-left: 30px;
+  color: rgb(27, 75, 157);
+}
+
+.banner-job-manage .banner-1work-btn:hover {
+  color: #fff;
+}
+
+.banner-job-manage .banner-1work-title-down {
+  font-size: 22px;
+}
+
+.process-diagram-cont {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  gap: 5px;
+}
+
+.process-diagram-item {
+  background: #2394e6;
+  width: 26%;
+  margin-bottom: 85px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.process-diagram-space {
+  width: calc(11% - 10px);
+  display: flex;
+  align-items: center;
+  height: 90px;
+  gap: 2px;
+}
+
+.process-diagram-space span:first-child,
+.process-diagram-space span:last-child {
+  width: 10px;
+  height: 10px;
+  background: #0075b2;
+  border-radius: 100%;
+}
+
+.process-diagram-space span:nth-child(2) {
+  flex: 1;
+  background: #0075b2;
+  height: 1px;
+}
+
+.process-diagram-cont .item:nth-child(6) {
+  position: absolute;
+  top: 99px;
+  left: 10%;
+  transform: rotate(45deg);
+}
+
+.process-diagram-cont .item:nth-child(10) {
+  position: absolute;
+  top: 99px;
+  right: 10%;
+  transform: rotate(-45deg);
+}
+
+.process-diagram-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.process-diagram {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.manage-feature-item {
+  color: rgb(6, 79, 184);
+  padding-top: 70px;
+}
+
+.manage-feature-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.manage-feature-item:nth-child(even) ul {
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+li.manage-feature-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.manage-feature-item li {
+  margin-bottom: 0;
+}
+
+.manage-feature-item li img {
+  margin-top: 5px;
+}
+
+.manage-feature-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 800;
+  background: url("../images/1work/banner/banner-bg.png");
+  color: #fff;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.manage-feature-title .under-line {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.manage-feature-title .under-line span:first-child,
+.manage-feature-title .under-line span:last-child {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 100%;
+}
+
+.manage-feature-title .under-line span:nth-child(2) {
+  flex: 1;
+  height: 1px;
+  background: #fff;
 }

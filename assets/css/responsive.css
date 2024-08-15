@@ -23,6 +23,10 @@
 }
 
 @media (max-width: 1450px) {
+  .banner-job-manage {
+    height: 515px;
+    background-position: right -150px;
+  }
   .route-arrow {
     position: absolute;
     top: 20px;
@@ -70,9 +74,33 @@
     height: calc(100vh - 81px);
     background-size: cover;
   }
+  .banner-job-manage {
+    height: 515px;
+    background-position: right -100px;
+  }
+  .process-diagram-item {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
 }
 
 @media (max-width: 1024px) {
+  .process-diagram-cont .item:nth-child(6),
+  .process-diagram-cont .item:nth-child(10) {
+    top: 88px;
+  }
+  .process-diagram-item {
+    margin-bottom: 65px;
+  }
+  .banner-job-manage {
+    background-position: top left;
+  }
+  .banner-job-manage .banner-page-cont-text-wrap {
+    max-width: 455px;
+  }
+  .banner-job-manage .banner-1work-btn {
+    margin-left: auto;
+  }
   .banner-1work {
     height: auto;
     background-size: cover;
@@ -376,6 +404,19 @@
 }
 
 @media (max-width: 820px) {
+  .process-diagram-item {
+    padding: 10px 10px;
+  }
+  .process-diagram-item {
+    margin-bottom: 45px;
+  }
+  .process-diagram-cont .item:nth-child(6),
+  .process-diagram-cont .item:nth-child(10) {
+    top: 94px;
+  }
+  .process-diagram-cont .item {
+    height: 120px;
+  }
   .banner.banner-2 {
     background-size: 195%;
   }
@@ -592,9 +633,36 @@
   .subsystem-item {
     padding: 10px;
   }
+  .manage-feature-item ul,
+  .manage-feature-item .image {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .manage-feature-item {
+    padding-top: 0;
+  }
+  .manage-feature-item:nth-child(even) ul {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 600px) {
+  .manage-feature-title .under-line {
+    width: 280px;
+    margin-top: 10px;
+  }
+  .manage-feature-title {
+    font-size: 24px;
+    height: 120px;
+  }
+  .app-list-title {
+    font-size: 28px;
+  }
+  .app-list-intro {
+    font-size: 18px;
+  }
   .banner-1work-btn {
     font-size: 20px;
     padding: 20px 50px;
@@ -745,9 +813,69 @@
   .subsystem-title-up {
     margin-top: 0;
   }
+  .process-diagram-item {
+    width: 42%;
+    margin-bottom: 60px;
+  }
+  .process-diagram-space {
+    width: calc(16% - 10px);
+  }
+  .process-diagram-cont .item:nth-child(6),
+  .process-diagram-cont .item:nth-child(10) {
+    top: 285px;
+    width: 90px;
+  }
+  .process-diagram-cont .item:nth-child(4),
+  .process-diagram-cont .item:nth-child(8) {
+    top: 93px;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 10%;
+    width: 58px;
+  }
+  .process-diagram-cont .item:nth-child(1) {
+    order: 1;
+  }
+  .process-diagram-cont .item:nth-child(2) {
+    order: 2;
+  }
+  .process-diagram-cont .item:nth-child(3) {
+    order: 3;
+  }
+  .process-diagram-cont .item:nth-child(4) {
+    order: 6;
+  }
+  .process-diagram-cont .item:nth-child(5) {
+    order: 7;
+    margin-left: 14%;
+  }
+  .process-diagram-cont .item:nth-child(6) {
+    order: 4;
+    left: 16%;
+  }
+  .process-diagram-cont .item:nth-child(7) {
+    order: 5;
+  }
+  .process-diagram-cont .item:nth-child(8) {
+    order: 8;
+    left: auto;
+    right: 10%;
+  }
+  .process-diagram-cont .item:nth-child(9) {
+    order: 9;
+  }
+  .process-diagram-cont .item:nth-child(10) {
+    order: 10;
+    right: 16%;
+  }
 }
 
 @media (max-width: 450px) {
+  .process-diagram-cont .item:nth-child(6),
+  .process-diagram-cont .item:nth-child(10) {
+    top: 280px;
+    width: 82px;
+  }
   .app-list-item {
     width: 100%;
   }
