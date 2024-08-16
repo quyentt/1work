@@ -2240,9 +2240,16 @@ body {
 .manage-feature-item {
   color: rgb(6, 79, 184);
   padding-top: 70px;
+  padding-bottom: 80px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .manage-feature-item:nth-child(even) {
+  background: #fafafa;
+}
+
+.manage-feature-item:nth-child(even) .mfi-box {
   flex-direction: row-reverse;
 }
 
@@ -2300,4 +2307,9 @@ li.manage-feature-item-title {
   flex: 1;
   height: 1px;
   background: #fff;
+}
+
+.mfi-box {
+  display: flex;
+  align-items: center;
 }

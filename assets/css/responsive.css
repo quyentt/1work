@@ -633,14 +633,18 @@
   .subsystem-item {
     padding: 10px;
   }
-  .manage-feature-item ul,
-  .manage-feature-item .image {
+  .mfi-box {
+    flex-wrap: wrap;
+  }
+  .mfi-box ul,
+  .mfi-box .image {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
   .manage-feature-item {
-    padding-top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .manage-feature-item:nth-child(even) ul {
     margin-left: 0;
