@@ -2142,7 +2142,7 @@ body {
   width: 100%;
 }
 
-.app-list-item:last-child .app-list-item-title {
+.app-list-item .app-list-item-title.hspl-title {
   margin-top: 20px;
 }
 
@@ -2230,6 +2230,7 @@ body {
   font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
+  color: rgb(6, 79, 184);
 }
 
 .process-diagram {
@@ -2312,4 +2313,125 @@ li.manage-feature-item-title {
 .mfi-box {
   display: flex;
   align-items: center;
+}
+
+.qlcv-th-box {
+  display: flex;
+  align-items: start;
+  color: rgb(6, 79, 184);
+  font-size: 18px;
+}
+
+.qlcv-th-box img {
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+#duyetcongviec .process-diagram-item {
+  padding: 10px 30px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.work-automation {
+  background: #fafafa;
+}
+
+.work-auto-cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.work-auto-cont .item {
+  width: calc((100% - 100px) / 2);
+}
+
+.work-auto-cont .item ul {
+  margin: 0;
+}
+
+.work-flow-cont {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.work-flow-cont .item {
+  width: calc((100% - 60px) / 3);
+}
+
+.work-flow-cont .item ul {
+  margin: 0;
+}
+
+#lichlamviec .solution-tab-cont ul,
+#lichlamviec .solution-tab-cont .image {
+  width: 50%;
+}
+
+#quanlycongviec .manage-feature-item:last-child .mfi-box {
+  flex-direction: row-reverse;
+}
+
+#quanlycongviec .manage-feature-item:last-child .mfi-box ul {
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+#quanlycongviec .manage-feature-item:nth-last-child(2) .mfi-box {
+  flex-direction: row;
+}
+
+#quanlycongviec .manage-feature-item:nth-last-child(2) .mfi-box ul {
+  margin-left: 0;
+  margin-right: 50px;
+}
+
+#hosophaply {
+  background: #fafafa;
+}
+
+.hspl-box {
+  flex-direction: row-reverse;
+}
+
+.hspl-box-cont {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.hspl-box-cont ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 60px;
+}
+
+.hspl-box-cont ul li {
+  width: calc((100% - 60px) / 2);
+}
+
+.hspl-box .image {
+  max-width: 200px;
+}
+
+#thuvienhoso .hspl-box-cont ul {
+  justify-content: end;
+}
+
+#thuvienhoso .hspl-box-cont {
+  padding-left: 0;
+}
+
+#thuvienhoso .hspl-box {
+  max-width: 1000px;
+}
+
+#kpi .banner-page-cont-text-wrap {
+  width: 586px;
 }
